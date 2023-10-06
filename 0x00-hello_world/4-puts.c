@@ -3,10 +3,10 @@
 /**
  * main - Entry point
  *
- * Description : A C program
+ * Description: A C program
  *
- * return : Alawys 0 (Success)
-*/
+ * Return: Alawys 0 (Success)
+ */
 
 int main(void)
 {
