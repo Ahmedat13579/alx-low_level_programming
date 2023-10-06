@@ -5,7 +5,7 @@
  *
  * Description : A C program
  *
- * Return : Always 0 (Success)
+ * Return : Alawys 0 (Success)
 */
 
 int main(void)
