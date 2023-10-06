@@ -5,7 +5,7 @@
  *
  * Description : A C program
  *
- * Return : Alawys 0 (Success)
+ * return : Alawys 0 (Success)
 */
 
 int main(void)
