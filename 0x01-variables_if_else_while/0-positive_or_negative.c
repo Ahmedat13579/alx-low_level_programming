@@ -3,12 +3,12 @@
 #include <time.h>
 
 /**
- * Description: true or false validation
- *
  * main - entry point
  *
+ * Description: false or true  validatioin
+ *
  * Return: always 0 (success)
-*/ 
+*/
 
 int main(void)
 {
