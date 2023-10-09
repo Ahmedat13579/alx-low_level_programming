@@ -7,15 +7,17 @@
  * Description: a c prog
  *
  * Return: Always 0 (success)
-*/ 
+*/
+
 int main(void)
 {
-	int n,ln;
-	ln= n % 10;
+	int n, ln;
+
+	ln = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("Last digit of %i is %i, n, ln");
+	printf("Last digit of %i is %i" , n, ln);
 	if (ln > 5)
 		{printf("and is greater than 5\n"); }
 	else if (n == 0)
