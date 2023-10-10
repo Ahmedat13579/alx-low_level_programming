@@ -1,15 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - entry point 
+ * main - entry point
  *
  * Description: c program
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
 {
-printf("_putchar");
-return (0);
+	char str[] = "_putchar";
+	int ch;
+
+	for (ch = 0; ch < 8; ch++)
+		_putchar(str[ch]);
+	_putchar('\n');
+	return (0);
 }
